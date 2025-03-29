@@ -29,6 +29,9 @@ function Accommodate(props){
 
             {isFull&&<p style={{color:"red"}}>정원이 가득 찼습니다.</p>}
         </div>
+
+
+
     );
 }
 
