@@ -5,11 +5,14 @@ import App from './App';
 import './index.css'; 
 import Accommodate from './Week3/Accommodate';
 import reportWebVitals from './reportWebVitals';
+import ConfirmButton from './Week4/ConfirmButton';
+import LandingPage from './Week4/LandingPage';
+import AttendanceBook from './Week4/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(
   <React.StrictMode>
-    <Accommodate/>
+    <AttendanceBook/>
   </React.StrictMode>,
   document.getElementById('root')
 );
