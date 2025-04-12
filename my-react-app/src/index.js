@@ -8,11 +8,14 @@ import reportWebVitals from './reportWebVitals';
 import ConfirmButton from './Week4/ConfirmButton';
 import LandingPage from './Week4/LandingPage';
 import AttendanceBook from './Week4/AttendanceBook';
+import SignUp from './Week5/SignUp';
+import Calculator from './Week5/Calculator';
+import ProfileCard from './Week5/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(
   <React.StrictMode>
-    <AttendanceBook/>
+    <ProfileCard/>
   </React.StrictMode>,
   document.getElementById('root')
 );
