@@ -11,11 +11,13 @@ import AttendanceBook from './Week4/AttendanceBook';
 import SignUp from './Week5/SignUp';
 import Calculator from './Week5/Calculator';
 import ProfileCard from './Week5/ProfileCard';
+import DarkOrLight from './Week6/DarkOrLight';
+import Blocks from './Week6/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(
   <React.StrictMode>
-    <ProfileCard/>
+    <Blocks/>
   </React.StrictMode>,
   document.getElementById('root')
 );
