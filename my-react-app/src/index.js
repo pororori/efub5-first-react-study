@@ -17,7 +17,7 @@ import Blocks from './Week6/Blocks';
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(
   <React.StrictMode>
-    <Blocks/>
+     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
